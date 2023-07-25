@@ -49,3 +49,14 @@ body{
  user-select: none;
   opacity: 1;
 }
+
+#ChangeButton{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#VoiceButton{
+	position:absolute;
+	top:0;
+	right: 0;
+}
