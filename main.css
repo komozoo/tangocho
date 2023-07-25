@@ -35,7 +35,7 @@ body{
   word-wrap: normal;
 }
 #Setsumei{
- user-select: none
+ user-select: none;
   opacity: 0;
 	height: 100%;
 	width: 100%;
@@ -46,9 +46,6 @@ body{
   place-items: center;
 }
 
-#Setsumei:hover{
-  opacity: 1;
-}
 #Setsumei:active{
   opacity: 1;
 }
