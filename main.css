@@ -35,7 +35,6 @@ body{
   word-wrap: normal;
 }
 #Setsumei{
- user-select: none;
   opacity: 0;
 	height: 100%;
 	width: 100%;
@@ -47,5 +46,6 @@ body{
 }
 
 #Setsumei:active{
+ user-select: none;
   opacity: 1;
 }
