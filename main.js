@@ -14,21 +14,23 @@ function voice(params) {
 
 function SetValue()
 {
+
+	
 	tango = "hage";
 	setsumei = "aaaaaaaaaaa";
 
 	var t = document.getElementById("Tango");
-  t.innerHTML = tango;
+	t.innerHTML = tango;
 	var s = document.getElementById("Setsumei");
-  s.innerHTML = setsumei;
+	s.innerHTML = setsumei;
 }
-async function populate() {
- const request = new Request("./chu1.json");
+async function loadJson() {
+	const request = new Request("./chu1.json");
 
-  const response = await fetch(request);
-  const superHeroes = await response.json();
-console.log(superHeroes);
+	const response = await fetch(request);
+	tangoList = await response.json();
+	console.log(tangoList);
+	SetValue();
 }
 
-populate(); 
-SetValue();
+loadJson(); 
