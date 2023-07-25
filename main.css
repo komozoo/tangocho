@@ -46,6 +46,6 @@ body{
   place-items: center;
 }
 }
-#Setsumei::active{
+#Setsumei:active{
  color: black;
 }
