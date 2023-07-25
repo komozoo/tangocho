@@ -27,7 +27,7 @@ async function populate() {
 
   const response = await fetch(request);
   const superHeroes = await response.json();
-console.log(data);
+console.log(superHeroes);
 }
 
 populate(); 
