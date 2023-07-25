@@ -36,7 +36,7 @@ body{
 }
 #Setsumei{
  
- color: transparent;
+  opacity: 0;
 	height: 100%;
 	width: 100%;
 	font-size: 2em;
@@ -45,7 +45,10 @@ body{
   display: grid;
   place-items: center;
 }
+
+#Setsumei:hover{
+  opacity: 1;
 }
 #Setsumei:active{
- color: black;
+  opacity: 1;
 }
