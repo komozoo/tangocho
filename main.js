@@ -14,10 +14,12 @@ function voice(params) {
 
 function SetValue()
 {
-
 	
-	tango = "hage";
-	setsumei = "aaaaaaaaaaa";
+	let idx =Math.floor(Math.random() * tangoList.length);
+
+
+	tango = tangoList[idx].単語;
+	setsumei = tangoList[idx].意味;
 
 	var t = document.getElementById("Tango");
 	t.innerHTML = tango;
