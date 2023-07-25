@@ -26,12 +26,13 @@ body{
 #Tango{
  
 	height: 100%;
-	width: 100%;
-	font-size: 10em;
+	width: 100vw;
+	font-size: 8em;
 	margin: 0;
 	padding: 0;
   display: grid;
   place-items: center;
+  word-wrap: normal;
 }
 #Setsumei{
  
