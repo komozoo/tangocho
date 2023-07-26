@@ -17,7 +17,7 @@ body{
 }
 
 #BottomArea{
-	background-color: rgb(158, 158, 255);
+	background-color: rgb(192, 215, 250);
 	top: 50vh;
 	height: 50vh;
 	width: 100vw;
@@ -66,14 +66,4 @@ body{
 	position:absolute;
 	top:5px;
 	right: 5px;
-}
-
-
-button:hover {
-  background: #1d49aa;
-}
- 
-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 4px #cbd6ee;
 }

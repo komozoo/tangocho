@@ -26,13 +26,12 @@ function SetValue()
 	var s = document.getElementById("Setsumei");
 	s.innerHTML = setsumei;
 }
-async function loadJson() {
-	const request = new Request("./chu1.json");
+
+async function Init(jsonUrl) {
+	const request = new Request(jsonUrl);
 
 	const response = await fetch(request);
 	tangoList = await response.json();
 	console.log(tangoList);
 	SetValue();
 }
-
-loadJson(); 
