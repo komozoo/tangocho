@@ -3,6 +3,7 @@
 let tango = "";
 let setsumei = "";
 let tangoList;
+
 function voice(params) {
 	if ("speechSynthesis" in window) {
     // 発言を作成
@@ -13,10 +14,8 @@ function voice(params) {
 }
 
 function SetValue()
-{
-	
+{	
 	let idx =Math.floor(Math.random() * tangoList.length);
-
 
 	tango = tangoList[idx].単語;
 	setsumei = tangoList[idx].意味;
