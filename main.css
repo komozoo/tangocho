@@ -26,7 +26,8 @@ body{
 }
 
 #Tango{
- 
+	font-family: 'Noto Serif JP', serif;
+
 	height: 100%;
 	width: 100vw;
 	max-width: 100vm;

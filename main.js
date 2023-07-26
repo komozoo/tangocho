@@ -22,7 +22,7 @@ function SetValue()
 	setsumei = tangoList[idx].意味;
 
 	var t = document.getElementById("Tango");
-	t.innerHTML =toFullWidth(tango);
+	t.innerHTML =tango;
 	var s = document.getElementById("Setsumei");
 	s.innerHTML = setsumei;
 }
@@ -34,11 +34,5 @@ async function loadJson() {
 	console.log(tangoList);
 	SetValue();
 }
-function toFullWidth(value) {
-	if (typeof value !== 'string') return value;
 
-	return String(value).replace(/[!-~]/g, function(all) {
-		return String.fromCharCode(all.charCodeAt(0) + 0xFEE0);
-	});
-};
 loadJson(); 
