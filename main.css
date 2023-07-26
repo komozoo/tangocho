@@ -62,6 +62,7 @@ body {
 	top:0;
 	max-width: 100vm;
 	width: 100vm;
+	text-align: center;
 }
 
 #ChangeButton {
