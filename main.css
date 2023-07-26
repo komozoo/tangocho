@@ -6,7 +6,7 @@ body{
 }
 
 #TopArea{
-	background-color: rgb(39, 243, 66);
+	background-color: rgb(124, 255, 141);
 	top: 0;
 	height: 50vh;
 	width: 100vw;
@@ -15,7 +15,7 @@ body{
 }
 
 #BottomArea{
-	background-color: blue;
+	background-color: rgb(158, 158, 255);
 	top: 50vh;
 	height: 50vh;
 	width: 100vw;
@@ -27,22 +27,26 @@ body{
  
 	height: 100%;
 	width: 100vw;
+	max-width: 100vm;
+    max-height: 50vh;
 	font-size: 8em;
 	margin: 0;
 	padding: 0;
   display: grid;
   place-items: center;
-  word-wrap: normal;
+  word-wrap: break-word;
 }
 #Setsumei{
   opacity: 0;
 	height: 100%;
 	width: 100%;
+	max-width: 100vm;
 	font-size: 2em;
 	margin: 0;
 	padding: 0;
   display: grid;
   place-items: center;
+  word-wrap: break-word;
 }
 
 #Setsumei:active{
