@@ -29,7 +29,7 @@ body{
 	width: 100vw;
 	max-width: 100vm;
     max-height: 50vh;
-	font-size: 8em;
+	font-size: 4em;
 	margin: 0;
 	padding: 0;
   display: grid;
@@ -63,4 +63,14 @@ body{
 	position:absolute;
 	top:0;
 	right: 0;
+}
+
+
+button:hover {
+  background: #1d49aa;
+}
+ 
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
 }
