@@ -5,15 +5,18 @@
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<title>単語帳</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
 	<link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
 	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 
 </head>
 <body>
 	<div id="TopArea">
 		<p id="Tango"></p>
-		<button id="VoiceButton" class="button is-link is-rounded" type="button" onclick="voice();"><i class="fa-solid fa-headphones"></i></button>
-		<button id="ChangeButton" class="button is-link is-rounded" type="button" onclick="SetValue();">チェンジ</button>
+		<button id="VoiceButton" class="button is-link is-rounded" type="button" onclick="voice();"><span class="icon"><span class="mdi mdi-account-voice"></span></span></button>
+		<button id="ChangeButton" class="button is-link is-rounded" type="button" onclick="SetValue();"><span class="icon"><span class="mdi mdi-refresh"></span></span></button>
 	</div>
 	<div id="BottomArea">
 		<p id="Setsumei"></p>
