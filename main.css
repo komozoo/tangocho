@@ -57,17 +57,23 @@ body {
 	user-select: none;
 	opacity: 1;
 }
+#Title{
+	position: absolute;
+	top:0;
+	max-width: 100vm;
+	width: 100vm;
+}
 
 #ChangeButton {
 	position: absolute;
-	top: 5px;
+	bottom: 5px;
 	left: 5px;
 	z-index: 999;
 }
 
 #VoiceButton {
 	position: absolute;
-	top: 5px;
+	bottom: 5px;
 	right: 5px;
 	z-index: 999;
 }
